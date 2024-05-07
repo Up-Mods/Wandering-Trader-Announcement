@@ -24,7 +24,7 @@ dependencies {
 
     // compileOnly "${libs.emi.neoforge.get()}:api"
 
-//    minecraftLibrary(libs.mixin.extras.asProvider().get())
+    compileOnly(libs.mixin.extras.asProvider().get())
     minecraftEmbed(libs.mixin.extras.forge.get()) {
         jarJar.ranged(it, "[${libs.versions.mixin.extras.get()},)")
     }
