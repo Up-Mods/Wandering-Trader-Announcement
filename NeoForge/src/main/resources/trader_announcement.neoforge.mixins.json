@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.upcraft.examplemod.neoforge.mixin",
+  "package": "dev.upcraft.traderannouncement.neoforge.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

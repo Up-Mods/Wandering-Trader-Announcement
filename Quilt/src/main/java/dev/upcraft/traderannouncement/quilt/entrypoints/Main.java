@@ -1,4 +1,4 @@
-package dev.upcraft.examplemod.quilt.entrypoints;
+package dev.upcraft.traderannouncement.quilt.entrypoints;
 
 import dev.upcraft.sparkweave.api.annotation.CalledByReflection;
 import org.quiltmc.loader.api.ModContainer;

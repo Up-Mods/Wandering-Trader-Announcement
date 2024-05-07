@@ -17,13 +17,13 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "dev.upcraft.examplemod.fabric.entrypoints.Client"
+      "dev.upcraft.traderannouncement.fabric.entrypoints.Client"
     ],
     "main": [
-      "dev.upcraft.examplemod.fabric.entrypoints.Main"
+      "dev.upcraft.traderannouncement.fabric.entrypoints.Main"
     ],
     "modmenu": [
-      "dev.upcraft.examplemod.fabric.entrypoints.Modmenu"
+      "dev.upcraft.traderannouncement.fabric.entrypoints.Modmenu"
     ]
   },
   "mixins": [

@@ -1,4 +1,4 @@
-package dev.upcraft.examplemod.fabric.entrypoints;
+package dev.upcraft.traderannouncement.fabric.entrypoints;
 
 import net.fabricmc.api.ClientModInitializer;
 

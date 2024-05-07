@@ -1,4 +1,4 @@
-package dev.upcraft.examplemod.quilt.entrypoints;
+package dev.upcraft.traderannouncement.quilt.entrypoints;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.client.ClientModInitializer;

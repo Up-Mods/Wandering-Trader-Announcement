@@ -57,6 +57,6 @@ buildCache {
     }
 }
 
-rootProject.name = 'ExampleMod'
+rootProject.name = 'Trader-Announcement'
 
 include 'Common', 'NeoForge', 'Quilt', 'Fabric'
