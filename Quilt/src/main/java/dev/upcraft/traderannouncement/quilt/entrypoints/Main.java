@@ -1,14 +1,13 @@
 package dev.upcraft.traderannouncement.quilt.entrypoints;
 
-import dev.upcraft.sparkweave.api.annotation.CalledByReflection;
+import dev.upcraft.traderannouncement.TraderAnnouncement;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 
-@CalledByReflection
 public class Main implements ModInitializer {
 
     @Override
     public void onInitialize(ModContainer mod) {
-
+        TraderAnnouncement.init();
     }
 }

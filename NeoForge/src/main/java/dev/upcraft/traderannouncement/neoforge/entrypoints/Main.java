@@ -5,4 +5,8 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod(TraderAnnouncement.MODID)
 public class Main {
+
+    public Main() {
+        TraderAnnouncement.init();
+    }
 }

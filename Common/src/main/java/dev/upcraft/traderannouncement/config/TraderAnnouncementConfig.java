@@ -12,12 +12,12 @@ import dev.upcraft.traderannouncement.TraderAnnouncement;
         description = "Announce when a wandering trader spawns",
         links = {
                 @Link(
-                        value = "https://modrinth.com/mod/0",
+                        value = "https://modrinth.com/mod/sxx4Yagq",
                         icon = "modrinth",
                         title = "Modrinth"
                 ),
                 @Link(
-                        value = "https://curseforge.com/projects/0",
+                        value = "https://curseforge.com/projects/1014823",
                         icon = "curseforge",
                         title = "Curseforge"
                 ),
