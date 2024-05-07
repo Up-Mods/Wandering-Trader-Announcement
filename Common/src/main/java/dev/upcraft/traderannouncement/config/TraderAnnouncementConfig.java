@@ -22,7 +22,7 @@ import dev.upcraft.traderannouncement.TraderAnnouncement;
                         title = "Curseforge"
                 ),
                 @Link(
-                        value = "https://github.com/Up-Mods/Trader-Announcement",
+                        value = "https://github.com/Up-Mods/Wandering-Trader-Announcement",
                         icon = "github",
                         title = "Github")
         }
