@@ -5,7 +5,7 @@ import com.teamresourceful.resourcefulconfig.common.annotations.ConfigEntry;
 import com.teamresourceful.resourcefulconfig.common.config.EntryType;
 import com.teamresourceful.resourcefulconfig.web.annotations.Link;
 import com.teamresourceful.resourcefulconfig.web.annotations.WebInfo;
-import dev.upcraft.traderannouncement.TraderAnnouncement;
+import dev.upcraft.traderannouncement.WanderingTraderAnnouncement;
 
 @WebInfo(
         title = "Trader Announcement",
@@ -27,15 +27,21 @@ import dev.upcraft.traderannouncement.TraderAnnouncement;
                         title = "Github")
         }
 )
-@Config(TraderAnnouncement.MODID)
-public final class TraderAnnouncementConfig {
+@Config(WanderingTraderAnnouncement.MODID)
+public final class WanderingTraderAnnouncementConfig {
 
     @ConfigEntry(id = "announce_globally", type = EntryType.BOOLEAN, translation = "config.trader_announcement.announce_globally")
     public static boolean announceGlobally = false;
 
-    @ConfigEntry(id = "announce_distance", type = EntryType.INTEGER, translation = "config.trader_announcement.announce_distance")
-    public static int announceDistance = 72;
+    @ConfigEntry(id = "announcement_range", type = EntryType.INTEGER, translation = "config.trader_announcement.announcement_range")
+    public static int announcementRange = 72;
 
     @ConfigEntry(id = "add_glowing_effect", type = EntryType.BOOLEAN, translation = "config.trader_announcement.add_glowing_effect")
     public static boolean addGlowingEffect = true;
+
+    @ConfigEntry(id = "announcement_sound_enabled", type = EntryType.BOOLEAN, translation = "config.trader_announcement.announcement_sound_enabled")
+    public static boolean announcementSoundEnabled = true;
+
+    @ConfigEntry(id = "announcement_sound", type = EntryType.STRING, translation = "config.trader_announcement.announcement_sound")
+    public static String announcementSound = "minecraft:entity.player.levelup";
 }

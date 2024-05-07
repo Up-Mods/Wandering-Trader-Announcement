@@ -1,12 +1,12 @@
 package dev.upcraft.traderannouncement.neoforge.entrypoints;
 
-import dev.upcraft.traderannouncement.TraderAnnouncement;
+import dev.upcraft.traderannouncement.WanderingTraderAnnouncement;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod(TraderAnnouncement.MODID)
+@Mod(WanderingTraderAnnouncement.MODID)
 public class Main {
 
     public Main() {
-        TraderAnnouncement.init();
+        WanderingTraderAnnouncement.init();
     }
 }
