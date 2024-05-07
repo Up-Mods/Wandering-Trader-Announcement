@@ -33,6 +33,9 @@ public final class TraderAnnouncementConfig {
     @ConfigEntry(id = "announce_globally", type = EntryType.BOOLEAN, translation = "config.trader_announcement.announce_globally")
     public static boolean announceGlobally = false;
 
-    @ConfigEntry(id = "announce_radius", type = EntryType.INTEGER, translation = "config.trader_announcement.announce_radius")
-    public static int announceRadius = 72;
+    @ConfigEntry(id = "announce_distance", type = EntryType.INTEGER, translation = "config.trader_announcement.announce_distance")
+    public static int announceDistance = 72;
+
+    @ConfigEntry(id = "add_glowing_effect", type = EntryType.BOOLEAN, translation = "config.trader_announcement.add_glowing_effect")
+    public static boolean addGlowingEffect = true;
 }
