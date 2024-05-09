@@ -49,13 +49,6 @@
           "curseforge": "714059",
           "modrinth": "M1953qlQ"
         }
-      },
-      {
-        "id": "commonnetworking",
-        "mc-publish": {
-          "curseforge": "806044",
-          "modrinth": "HIuqnQpi"
-        }
       }
     ],
     "intermediate_mappings": "net.fabricmc:intermediary"

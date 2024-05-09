@@ -23,7 +23,6 @@ dependencies {
     modImplementation (libs.resourcefulconfig.fabric) {
         exclude group: "net.fabricmc", module: "fabric-loader"
     }
-    modImplementation libs.commonnetworking.fabric
 
     modCompileOnly (fabric.modmenu) {
         transitive = false

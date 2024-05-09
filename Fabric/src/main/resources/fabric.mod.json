@@ -34,8 +34,7 @@
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": "*",
     "minecraft": "=${minecraft_version}",
-    "resourcefulconfig": "*",
-    "commonnetworking": "*"
+    "resourcefulconfig": "*"
   },
   "custom": {
     "mc-publish": {
@@ -47,7 +46,6 @@
       "dependencies": [
         "fabric-api(required){modrinth:P7dR8mSH}{curseforge:306612}",
         "resourcefulconfig(required){modrinth:M1953qlQ}{curseforge:714059}",
-        "commonnetworking(required){modrinth:HIuqnQpi}{curseforge:806044}"
       ]
     }
   }

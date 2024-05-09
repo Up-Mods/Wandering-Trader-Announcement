@@ -24,7 +24,6 @@ dependencies {
     compileOnly project(":Common")
 
     modImplementation libs.resourcefulconfig.fabric
-    modImplementation libs.commonnetworking.fabric
 
     modCompileOnly quilt.modmenu
     modLocalRuntime quilt.modmenu

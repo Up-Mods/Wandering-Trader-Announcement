@@ -15,7 +15,6 @@ dependencies {
     compileOnly libs.jetbrains.annotations
 
 	implementation libs.resourcefulconfig
-	implementation libs.commonnetworking
 
 	// compileOnly "${libs.emi.asProvider().get()}:api"
 }
