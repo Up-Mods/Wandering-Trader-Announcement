@@ -5,7 +5,7 @@ plugins {
     alias neoforge.plugins.mixingradle
 }
 
-def usingJarJar = false
+def usingJarJar = true
 
 if(usingJarJar) {
     jarJar.enable()
